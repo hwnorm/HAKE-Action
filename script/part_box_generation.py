@@ -174,4 +174,4 @@ def check_iou(human_bbox_pkl, human_bbox_pose):
 hbox = np.zeros((4))
 joint_17 = np.zeros((17, 3))                # the pose
 joint_16 = map_17_to_16(joint_17)
-part_box = output_part_box(joint_16, hbox)) # return the part bounding box
+part_box = output_part_box(joint_16, hbox) # return the part bounding box
